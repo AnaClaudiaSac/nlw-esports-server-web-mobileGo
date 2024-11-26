@@ -4,9 +4,14 @@
     "slug": "MobileGo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": ".src/assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121214"
+    },
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -14,7 +19,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor":  "#121214"
+        "backgroundColor": "#121214"
       }
     },
     "web": {
